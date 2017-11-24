@@ -1,0 +1,9 @@
+{
+  "name": "MyWebsite",
+  "version": "0.0.1",
+  "description": "Jason's website with Vue.js",
+  "main": "index.js",
+  "author": "Jason Suttles",
+  "license": "MIT",
+  "private": false
+}
