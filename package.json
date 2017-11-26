@@ -6,10 +6,25 @@
   "author": "Jason Suttles",
   "license": "MIT",
   "private": false,
+  "engines": {
+    "node": "9.2.0"
+  },
   "devDependencies": {
-    "rollup": "^0.51.8",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "rollup": "^0.52.0",
     "rollup-plugin-vue": "^2.5.2",
     "vue": "^2.5.8",
     "vue-template-compiler": "^2.5.8"
+  },
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "express": "^4.16.2",
+    "foreman": "^2.0.0",
+    "forky": "^0.3.0",
+    "winston": "^3.0.0-rc1"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": [
+          "node_modules",
+          "server"
+        ]
+      }
+    }
+  }
+}
