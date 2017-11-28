@@ -16,15 +16,24 @@
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.5.1",
     "rollup": "^0.52.0",
+    "rollup-plugin-alias": "^1.4.0",
+    "rollup-plugin-buble": "^0.18.0",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-livereload": "^0.6.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-serve": "^0.4.2",
     "rollup-plugin-vue": "^2.5.2",
-    "vue": "^2.5.8",
+    "rollup-watch": "^4.3.1",
     "vue-template-compiler": "^2.5.8"
   },
   "dependencies": {
     "app-module-path": "^2.2.0",
+    "date-fns": "^1.29.0",
     "express": "^4.16.2",
     "foreman": "^2.0.0",
     "forky": "^0.3.0",
+    "vue": "^2.5.8",
     "winston": "^3.0.0-rc1"
   }
 }
