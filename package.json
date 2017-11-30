@@ -6,15 +6,17 @@
   "author": "Jason Suttles",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "devServ": "rollup -c rollup.config.dev.js -w"
+  },
   "engines": {
     "node": "9.2.0"
   },
   "devDependencies": {
-    "eslint": "^4.11.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.5.1",
+    "eslint": "4.9.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-vue": "^2.1.0",
     "rollup": "^0.52.0",
     "rollup-plugin-alias": "^1.4.0",
     "rollup-plugin-buble": "^0.18.0",
@@ -34,6 +36,7 @@
     "foreman": "^2.0.0",
     "forky": "^0.3.0",
     "vue": "^2.5.8",
+    "vue-router": "^3.0.1",
     "winston": "^3.0.0-rc1"
   }
 }

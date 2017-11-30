@@ -1,5 +1,10 @@
 {
-  "extends": "airbnb",
+  "extends": [
+    "airbnb-base"
+  ],
+  "plugins": [
+    "vue"
+  ],
   "settings": {
     "import/resolver": {
       "node": {
